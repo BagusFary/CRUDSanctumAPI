@@ -65,31 +65,18 @@ Tugas Magang , Admin Panel REST API menggunakan token auth dengan Laravel Sanctu
   
 ```
 
-
-
-
-
-
-
 ### Logout
 
 ```http
   POST /api/logout
 ```
-![Logout](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_7.jpg?raw=true)
-
-
-#### Get item
+![Logout](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_10.jpg?raw=true)
 
 ```http
-  GET /api/items/${id}
+  POST /api/login
 ```
+![Login](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_9.jpg?raw=true)
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
 
-Takes two numbers and returns the sum.
 
