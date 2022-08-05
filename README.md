@@ -39,7 +39,7 @@ Tugas Magang , Admin Panel REST API menggunakan token auth dengan Laravel Sanctu
 ![Set Auth Token](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_8.jpg?raw=true)
  
 ### With Auth Token you can access all routes
-```http
+```bash
 # Public Routes
   POST /api/register
   POST /api/login
@@ -67,13 +67,13 @@ Tugas Magang , Admin Panel REST API menggunakan token auth dengan Laravel Sanctu
 
 ### Logout
 
-```http
+```bash
   POST /api/logout
 ```
 ![Logout](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_10.jpg?raw=true)
 
 ### Login
-```http
+```bash
   POST /api/login
 ```
 ![Login](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_9.jpg?raw=true)
