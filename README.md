@@ -72,6 +72,7 @@ Tugas Magang , Admin Panel REST API menggunakan token auth dengan Laravel Sanctu
 ```
 ![Logout](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_10.jpg?raw=true)
 
+### Login
 ```http
   POST /api/login
 ```
