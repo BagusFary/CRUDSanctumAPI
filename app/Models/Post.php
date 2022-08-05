@@ -11,9 +11,9 @@ class Post extends Model
     use HasFactory;
 
 
-    // protected $fillable = ['judul', 'deskripsi'];
+ 
     protected $guarded = ['id'];
-    // protected $with = ['category', 'author'];
+
 
 
     public function scopeFilter($query) 
@@ -25,23 +25,14 @@ class Post extends Model
         }
     }
 
-    // public function post()
-    // {
-    //     return $this->belongsTo(Post::class);
-    // }
+ 
 
     public function user()
     {
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    // public function getRoutekeyName()
-    // {
-    //     return 'id';
-    // }
+ 
 
-    //public function list(){
-    //    return DB::select('SELECT * FROM posts');
-    //}
 }
 
