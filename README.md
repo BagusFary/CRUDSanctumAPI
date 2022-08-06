@@ -78,6 +78,9 @@ Tugas Magang , Admin Panel REST API menggunakan token auth dengan Laravel Sanctu
 ```
 ![Login](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_9.jpg?raw=true)
 
+### Database Design/Relation 
+![Desain Database](https://github.com/BagusFary/CRUDSanctumAPI/blob/master/screenshots/Screenshot_11.jpg?raw=true)
+
 
 
 
